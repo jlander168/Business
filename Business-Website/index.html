@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="index.js"></script>
+    <link rel="icon" href="images/icon.png" type="image/x-icon" sizes="16x16 32x32">
+</head>
+<body>
+    <header>
+        <img src="images/logo2.png"><span>Smash Camp</span>
+        <ul>
+            <li class="border"><a href="index.html">Home</a></li>
+            <li class="border"><a href="index.html">Schedules</a>
+                <ul>
+                    <a href="smash.html"><li>Super Smash Bros Ultimate</li></a>
+                    <a href="overwatch.html"><li>Overwatch</li></a>
+                    <a href="csgo.html"><li>CSGO</li></a>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <div class="main">
+        
+        <div class="slideshow" id="slideshow">
+            <script>showImage();</script>
+            <div class="caption">Best Summer Camp for Gamers</div>
+        </div>
+        <button class="arrows left-arrow" onclick="switchImage(-1)">&#10094</button>
+        <button class="arrows right-arrow" onclick="switchImage(1)">&#10095</button>
+        <div class="dots">
+            <span class="dot active" onclick="switchImageWithDot(0)"></span>
+            <span class="dot" onclick="switchImageWithDot(1)"></span>
+            <span class="dot" onclick="switchImageWithDot(2)"></span>
+        </div>
+        <div class="about">
+            <h1>About Us</h1>
+            <div class="information">
+                <p>Smash Camp is a 4 day summer camp that is all about playing video games. It teaches kids more about critical thinking and skills through playing video games.<br><br>
+                Some games that are playable here are Super Smash Bros, Overwatch, and CSGO.<br><br>
+                This program mainly teaches you the basics of each game and helps people get better at the game if they intend to. There are also advanced programs for people who are already familiar with the game for an extra cost if they so desire</p>
+            </div>
+        </div>
+        <div class="ops">
+            <h1>Programs That We Support</h1>
+            <div class="options">
+                <div class="op-1 op">
+                    <a href="smash.html"><img src="images/smashlogo1.png" width="100%"></a>
+                </div>
+                <div class="op-2 op">
+                    <a href="overwatch.html"><img src="images/overwatch2.png" width="100%"></a>
+                </div>
+                <div class="op-3 op">
+                    <a href="csgo.html"><img src="images/csgo.png" width="100%"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="contactUs">
+            <h1>Contact Us</h1><br>
+            <br>
+            Phone: <a href="tel:555-555-5555">555-555-5555</a><br>
+            Email: <a href="https://www.youtube.com/watch?v=6yzeK4c9Y5g">smashcamp@gmail.com</a><br>
+            <br>
+            Address: 114 Black Horse Alley<br>
+            Philadelphia, PA 19106<br>
+            
+        </div>
+        <div class="location">
+            <h1>Location</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6117.255508689188!2d-75.14307178879943!3d39.94971542960556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c8858199e923%3A0x68c6657d361386dc!2s114%20Black%20Horse%20Alley%2C%20Philadelphia%2C%20PA%2019106!5e0!3m2!1sen!2sus!4v1584989841031!5m2!1sen!2sus" width="650" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </footer>
+</body>
+</html>
